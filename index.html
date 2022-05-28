@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head id="root">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="davanas, nopirkt, sieviešu davanas, forša davana">
+  <meta name="description" content="Davanu veikals, rokas darbs, ipaši piedavjumi">
+  <meta name="author" content="Dmitrijs Višņakovs">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<title>Home</title>
+</head>
+
+<body id="root">
+  <header>
+    <div class="brand">
+      <h2 id="brandID">Brand Name</h2>
+      <button id="change" type="button" class="btn btn-outline-primary" onclick="myFunction()">Change color</button>
+    </div>
+    <ul id="nav" class="nav justify-content space-around">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+          aria-expanded="false">Login</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Registracija</a></li>
+          <li><a class="dropdown-item" href="#">Autorizacija</a></li>
+        </ul>
+      <li class="nav-item">
+        <a href="index.html"><button type="button" class="btn btn-outline-secondary">Home</button></a>
+      </li>
+
+      <li class="nav-item">
+
+        <button type="button" class="btn btn-outline-secondary">
+          <img src="img/shopping-bag.svg"> <span class="badge bg-secondary">4</span>
+        </button>
+      </li>
+      <li class="nav-item">
+        <a href="kontakti.html"><button type="button" class="btn btn-outline-secondary">Kontakti</button></a>
+      </li>
+      <li class="nav-item">
+        <button type="button" class="btn btn-outline-secondary" onclick="changeLV()">LV</button>
+      </li>
+      <li class="nav-item">
+        <button type="button" class="btn btn-outline-secondary"onclick="changeRU()">RUS</button>
+      </li>
+      <li class="nav-item">
+        <a href="praktiskie.html"><button type="button" class="btn btn-outline-secondary">Praktiskie darbi</button></a>
+      </li>
+      <li class="nav-item">
+        <a href="blogs.html"><button type="button" class="btn btn-outline-secondary">Blogs</button></a>
+      </li>
+    </ul>
+  </header>
+
+  <section class="banner">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-4">
+                      <h2>Jauna rotaļlietu kolekcija</h2><br>
+                      <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                        been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                        galley of type and scrambled it to make a type specimen book. It has survived not only five
+                        centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It
+                        was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                        passages, and more recently with desktop publishing software like Aldus PageMaker including
+                        versions of Lorem Ipsum.</span>
+                    </div>
+                    <div class="col-8"><img src="img/3842.1000x.png" width="50" height="400" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-4">
+                      <h2>Baloni katrai gaumei</h2><br>
+                      <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                        been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                        galley of type and scrambled it to make a type specimen book. It has survived not only five
+                        centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It
+                        was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                        passages, and more recently with desktop publishing software like Aldus PageMaker including
+                        versions of Lorem Ipsum.</span>
+                    </div>
+                    <div class="col-8"><img src="https://static.wixstatic.com/media/65e0fe_92e81324f7454649a5796682f894b067~mv2.jpg/v1/fill/w_640,h_456,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/65e0fe_92e81324f7454649a5796682f894b067~mv2.jpg" 
+                      width="450" height="400" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-4">
+                      <h2> Aprīkojuma noma</h2><br>
+                      <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                        been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                        galley of type and scrambled it to make a type specimen book. It has survived not only five
+                        centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It
+                        was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                        passages, and more recently with desktop publishing software like Aldus PageMaker including
+                        versions of Lorem Ipsum.</span>
+                    </div>
+                    <div class="col-8"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-rO2yNODhpKoRvHmIoP1MTfAqVqy-QXNEgg&usqp=CAU" 
+                      width="3450" height="400" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <h2>
+            <center>Top products</center>
+          </h2>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Sold</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td><a href="#" target=_blank>Product 1</td>
+                <td>329</td>
+
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td><a href="#" target=_blank>Product 2</a></td>
+                <td>298</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td><a href="#" target=_blank>Product 3</a></td>
+                <td>256</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td><a href="#" target=_blank>Product 4</a></td>
+                <td>156</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td><a href="#" target=_blank>Product 5</a></td>
+                <td>80</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-9">
+          <h2>
+            <center>Kategorijas</center>
+          </h2>
+          <div id="kategorijas" class="container">
+            <div class="row">
+              <div class="col-sm-3"id="cart1">
+                <div class="kName">
+                  <h3>Lampas</h3>
+                </div>
+              </div>
+              <div class="col-sm-3" id="cart2">
+                <div class="kName">
+                  <h3>Mazas davanas</h3>
+                </div>
+              </div>
+              <div class="col-sm-3" id="cart3">
+                <div class="kName">
+                  <h3>Lelles</h3>
+                </div>
+              </div>
+              <div class="col-sm-3" id="cart4">
+                <div class="kName">
+                  <h3>Izīrē</h3>
+                </div>
+              </div>
+              <div class="col-sm-3" id="cart5">
+                <div class="kName">
+                  <h3>Puķes</h3>
+                </div>
+              </div>
+              <div class="col-sm-3" id="cart6">
+                <div class="kName">
+                  <h3>Baloni</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <footer>
+    <button id="change" type="button" class="btn btn-outline-primary" onclick="addNew()">Add new Element</button>
+    <div  id="footerID" class="footer">
+      <h2>Author: Dmitrijs Višņakovs</h2>
+    </div>
+
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+
+</body>
+
+</html>

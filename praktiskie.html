@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="davanas, nopirkt, sieviešu davanas, forš davana">
+    <meta name="description" content="Davanu veikals, rokas darbs, ipaši piedavjumi">
+    <meta name="author" content="Dmitrijs Višņakovs">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="brand">
+            <h2>Brand Name</h2><small>Best company in the world!</small>
+        </div>
+        <ul id="nav" class="nav justify-content space-around">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                    aria-expanded="false">Login</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Registracija</a></li>
+                    <li><a class="dropdown-item" href="#">Autorizacija</a></li>
+                </ul>
+            <li class="nav-item">
+                <a href="index.html"><button type="button" class="btn btn-outline-secondary">Home</button></a>
+            </li>
+
+            <li class="nav-item">
+                <button type="button" class="btn btn-outline-secondary">
+                    Produkti <span class="badge bg-secondary">4</span>
+                </button>
+            </li>
+            <li class="nav-item">
+                <a href="kontakti.html"><button type="button" class="btn btn-outline-secondary">Kontakti</button></a>
+            </li>
+            <li class="nav-item">
+                <button type="button" class="btn btn-outline-secondary" onclick="changeLV()">LV</button>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn btn-outline-secondary"onclick="changeRU()">RUS</button>
+            </li>
+            <li class="nav-item">
+                <a href="praktiskie.html"><button type="button" class="btn btn-outline-secondary">Praktiskie
+                        darbi</button></a>
+            </li>
+            <li class="nav-item">
+                <a href="blogs.html"><button type="button" class="btn btn-outline-secondary">Blogs</button></a>
+            </li>
+        </ul>
+    </header>
+
+
+    <section class="mainSect">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="calc">
+                        <div class="form-group">
+                            <h3>Your number is</h3>
+                            <label for="num">Enter number:</label>
+                            <input type="text" class="form-control" id="num">
+                        </div>
+                        <button onclick="know()" class="btn btn-info">Show</button>
+                        <hr>
+                        <span id="result"></span>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="calc">
+                        <div class="form-group">
+                            <h3>Your day is</h3>
+                            <label for="num">Enter number:</label>
+                            <input type="text" class="form-control" id="numB">
+                        </div>
+                        <button onclick="start()" class="btn btn-info">Show</button>
+                        <hr>
+                        <span id="resultB"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="footer">
+            <center>
+                <h2>Autors: Dmitrijs Višņakovs</h2>
+            </center>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

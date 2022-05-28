@@ -1,0 +1,226 @@
+body {
+    min-width: 200px;
+    margin: auto;
+}
+
+header, footer, section {
+padding: 30px 0;
+
+flex-wrap: wrap;
+}
+
+header{
+    background-image: linear-gradient(120deg, #f5b9ef 70%, #86bcf0 100%)
+}
+
+#valodas {
+    padding: 10px;
+}
+
+#nav {
+justify-content: flex-end;
+margin-right: 30px;
+}
+
+.nav-item{
+    padding: 5px;
+}
+
+.brand {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 250px;
+}
+
+.banner{
+    background-image: linear-gradient(120deg, #494b4b 0%, #e5edea 100%)
+}
+
+.carousel-item{
+
+    text-align: center;
+}
+.col-4{
+    color: azure;
+    padding-right: 30px;
+    padding-top: 40px;
+}
+
+.main{
+    background-image: linear-gradient(120deg, #e8ecec 0%, #afecdd 100%);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#kategorijas {
+    
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.col-sm-3{
+    border: 1px solid;
+    margin: 30px;
+    padding: 20px;
+    height: 200px;
+    text-align: center;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    align-content: flex-end;
+    
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.carousel-inner{
+    flex-wrap: wrap;
+}
+
+h3 {
+    color: azure;
+    background-color: darkslategrey;
+}
+
+.kName{
+    
+    margin-top: 40px;
+}
+
+.kName:hover {
+    transform: translate3d(0, 10px, 0px);
+}
+
+h2{
+    color: rgb(12, 153, 155);
+}
+
+a {
+    text-decoration: none;
+}
+
+small{
+    margin-left: 20px;
+    color: crimson;
+}
+
+.contact {
+    padding: 50px;
+}
+
+#forma{
+    padding-left: 70px;
+}
+#validationDefault01 {
+    margin-top: 20px;
+    width: 600px;
+}
+
+.btn-outline-danger {
+    width: 100px;
+    height: 50px;
+}
+
+.card{
+margin: 30px;
+text-align: center;
+}
+
+#productList{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+i{
+    color: red;
+}
+.list-group-item:hover {
+    color: #fff;
+    background: rgb(76, 62, 138);
+}
+
+.kName h3:hover{
+    background: rgb(213, 213, 236);
+    color:rgb(77, 74, 74);
+}
+
+.brand h2:hover{
+    background: rgb(160, 153, 194);
+}
+
+#change{
+    margin-left: 15px;
+}
+
+h2 {
+    text-align: center;
+}
+h2:hover {
+    transform: scale(1, 1.5);
+}
+
+.calc {
+    margin-top: 20px;
+    border: 4px solid #B2EBF2;
+    padding: 20px 40px;
+    text-align: center;
+
+  }
+  #result {
+    font-size: 16px;
+    font-weight: 700;
+    color: #00BCD4;
+  }
+
+#cart1 {
+    background-image: url("https://img.divine-light.ru/0/691/000691989_800_800.jpg");
+    background-repeat: no-repeat;
+}
+
+#cart3 {
+    background-image: url("https://topkids.lv/wp-content/uploads/2019/11/843946ae851b3892437830e8e69b7979-800x800.jpg");
+    background-repeat: no-repeat;
+}
+
+#cart2 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHQxFHMVCjnguPPW2fUq4M6IYzkA2u-poKBg&usqp=CAU");
+    background-repeat: no-repeat;
+}
+
+#cart4 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfsfhlru-6xbU12Vi7FBxDxJ_tHOGtT8ZZfA&usqp=CAU");
+    background-repeat: no-repeat;
+}
+
+#cart5 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb3rGLAP8O2I0tyBPphHdgz81SllFSo6tprw&usqp=CAU");
+    background-repeat: no-repeat;
+}
+
+#cart6 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxV4apDOBOTr1FWpJmrI5Rrz5Gech7RflyQw&usqp=CAU");
+    background-repeat: no-repeat;
+}
+
+#start{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#para {
+    margin-top: 40px;
+}
+
+.col-sm-6 {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
